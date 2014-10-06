@@ -3,9 +3,11 @@
   <ItemGroup>
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Graph.cpp" />
+    <ClCompile Include="DepthFirstSearch.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BreadthFirstSearch.h" />
     <ClInclude Include="Graph.h" />
+    <ClInclude Include="DepthFirstSearch.h" />
   </ItemGroup>
 </Project>
