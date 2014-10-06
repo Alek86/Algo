@@ -21,7 +21,7 @@ namespace
         }
 
         processed[fromVertex] = 1;
-        const auto& adjacentVertices = graph.GetAllAdjacent(fromVertex);
+        const auto& adjacentVertices = graph.GetAdjacent(fromVertex);
         for (auto it = std::begin(adjacentVertices); it != std::end(adjacentVertices); ++it)
         {
             const auto currentAdjacentVertex = *it;

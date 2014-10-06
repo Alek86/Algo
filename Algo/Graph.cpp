@@ -2,12 +2,12 @@
 
 #include <sstream>
 
-Graph::Graph(size_t v) : m_verticesNumber(v)
+Graph::Graph(size_t verticesNumber) : m_verticesNumber(verticesNumber)
 {
     m_adjacencyLists.resize(m_verticesNumber);
 }
 
-const std::vector<size_t>& Graph::GetAllAdjacent(size_t v) const
+const std::vector<size_t>& Graph::GetAdjacent(size_t v) const
 {
     if (v >= m_adjacencyLists.size())
     {
