@@ -5,10 +5,12 @@
     <ClCompile Include="Graph.cpp" />
     <ClCompile Include="DepthFirstSearch.cpp" />
     <ClCompile Include="Digraph.cpp" />
+    <ClCompile Include="Edge.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Graph.h" />
     <ClInclude Include="DepthFirstSearch.h" />
     <ClInclude Include="Digraph.h" />
+    <ClInclude Include="Edge.h" />
   </ItemGroup>
 </Project>
