@@ -4,6 +4,7 @@ class Edge
 {
 public:
     Edge(size_t v, size_t w, double weight);
+    
     double GetWeight() const;
     size_t GetEither() const;
     size_t GetOther(size_t v) const;

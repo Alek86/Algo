@@ -63,6 +63,7 @@
     <ClCompile Include="DepthFirstSearch.cpp" />
     <ClCompile Include="Digraph.cpp" />
     <ClCompile Include="Edge.cpp" />
+    <ClCompile Include="EdgeWeightedGraph.cpp" />
     <ClCompile Include="Graph.cpp" />
     <ClCompile Include="Main.cpp" />
   </ItemGroup>
@@ -70,6 +71,7 @@
     <ClInclude Include="DepthFirstSearch.h" />
     <ClInclude Include="Digraph.h" />
     <ClInclude Include="Edge.h" />
+    <ClInclude Include="EdgeWeightedGraph.h" />
     <ClInclude Include="Graph.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

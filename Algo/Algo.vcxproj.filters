@@ -6,11 +6,13 @@
     <ClCompile Include="DepthFirstSearch.cpp" />
     <ClCompile Include="Digraph.cpp" />
     <ClCompile Include="Edge.cpp" />
+    <ClCompile Include="EdgeWeightedGraph.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Graph.h" />
     <ClInclude Include="DepthFirstSearch.h" />
     <ClInclude Include="Digraph.h" />
     <ClInclude Include="Edge.h" />
+    <ClInclude Include="EdgeWeightedGraph.h" />
   </ItemGroup>
 </Project>
